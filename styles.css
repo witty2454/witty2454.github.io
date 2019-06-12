@@ -22,5 +22,9 @@ h3{color: orange}
 .free{font-stretch: 20px }
 #base{dzfg}
 .gmail{sldkjha}
+.carousel-inner > .item > img{
+        margin:auto;
+        width:100%
+        }
 
 
