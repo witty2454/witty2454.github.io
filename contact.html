@@ -1,47 +1,91 @@
-<html>
-    <head> 
-        <link rel="stylesheet" href="styles.css">
-        <title>Home Page</title>
-    </head>    
-<body style="background-color: black">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a style="color: orange"  class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                           
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a style="color: orange" class="nav-item nav-link active" href="index.html">Home 
-                <a style="color: orange"  class="nav-item nav-link" href="about me.html">About Me</a>
-                <a style="color: orange"  class="nav-item nav-link" href="projects.html">Projects</a>
-                <a style="color: orange"  class="nav-item nav-link" href="contact.html">Contact</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Joe's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Joe's Portfolio</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about me.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-    </nav>
-<div style="color: lime" class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h4> Joe </h4>
-      <p>This is a website with a little info about myself. Hope you enjoy</p>
-      <br>
-      <br>
-      <h2>Have a great day!!!</h2>
-     
-  
-    </div>
-    <div class="col-sm-4">
-            
-      <img src=>
+      </nav>
+</nav>
+<div>
+    <h1 style="color: darkred;" style="margin-left: 100px;"  >Thank you for looking into my portfolio. click the link below to contact me. I would be happy to anwser any questions. Thank you agin and have a wonderful day.</h1>
+    <p> Joseph White</p>
+    <p>Phone:XXXX-XXX-XXXX</p>
+    <p>Email: <jwhite245455@gmail.com</jwhite245455@gmail></p>
+</div>
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form29" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form29">Your email</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form32" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form32">Subject</label>
+        </div>
+
+        <div class="md-form">
+          <i class="fas fa-pencil prefix grey-text"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="form8">Your message</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
     </div>
   </div>
 </div>
- 
-    </div>
-</body>
-<footer>
-    <div class="facebook">
-        <a href="https://www.facebook.com/joey.white.904">
-        <img id="photo2" src="https://cdn.vox-cdn.com/thumbor/u9-097bdr33QfM4MFTkd8i8k3Sk=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/62929922/jbareham_180405_1777_facebook_0003.0.jpg">
-       </a>
-    </div></footer>
 
+<div class="text-center">
+  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Launch
+    Contact Form</a>
+</div>
+
+</body>
+<footer >
+        <a  href="https://www.facebook.com/joey.white.904"><img id="fblogo";
+            src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" 
+            alt="facebook logo"
+            style="width: 100px;"
+            style="height: 100px;">   
+        </a>
+</footer>
 </html>
